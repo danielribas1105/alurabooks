@@ -1,0 +1,32 @@
+@import url(/styles/header.css);
+@import url(/styles/banner.css);
+@import url(/styles/carousel.css);
+@import url(/styles/topics.css);
+@import url(/styles/newsletter.css);
+@import url(/styles/footer.css);
+
+:root {
+    --color-white: #FFFFFF;
+    --color-grey: #EBECEE;
+    --color-orange: #EB9B00;
+    --color-blue: #002F52;
+    --color-blue-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --ff-texts: 'Poppins';
+}
+
+body {
+    background-color: var(--color-grey);
+    font-family: var(--ff-texts);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.btn-orange {
+    width: 90%;
+    background-color: var(--color-orange);
+    color: var(--color-white);
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    padding: 1rem 0;
+}
