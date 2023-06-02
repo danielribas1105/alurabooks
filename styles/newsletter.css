@@ -6,7 +6,7 @@
 
 .newsletter__title {
     font-size: 1.2rem;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .newsletter__text {
@@ -31,4 +31,36 @@
     text-align: center;
     background: url(../icons/email.svg) no-repeat;
     background-position: 2.2rem;
+}
+
+@media screen and (min-width: 1024px) {
+
+    .newsletter {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .newsletter-box {
+        padding: 2rem 5rem;
+        width: 30%;
+    }
+
+    .newsletter__title {
+        font-size: 1.5rem;
+    }
+
+    .newsletter__text {
+        font-weight: 300;
+    }
+
+    .newsletter__search {
+        width: 40%;
+    }
+
+    .newsletter__search::placeholder {
+        font-size: 1rem;
+        background-position: 3rem;
+
+    }
 }

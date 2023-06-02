@@ -30,3 +30,18 @@
     text-decoration: none;
     padding: 1rem;
 }
+
+@media screen and (min-width: 1024px) {
+    .topics__title {
+        font-size: 1.5rem;
+    }
+
+    .topics__item {
+        margin: 2.5rem 1rem;
+    }
+
+    .topic__link {
+        font-size: 1.5rem;
+        padding: 1.5rem 2rem;
+    }
+}
