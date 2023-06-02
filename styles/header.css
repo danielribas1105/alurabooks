@@ -66,6 +66,10 @@
     display: none;
 }
 
+.header-icon-label {
+    display: none;
+}
+
 @media screen and (min-width: 1024px) {
 
     .header__menu-hamburguer {
@@ -111,6 +115,10 @@
         display: none;
     }
 
+    .header-icon-label {
+        display: none;
+    }
+
 }
 
 @media screen and (min-width: 1728px) {
@@ -127,6 +135,7 @@
     }
 
     .header-icon-label {
+        display: block;
         font-size: 1.25rem;
         color: var(--color-black);
         padding-left: 0.5rem;

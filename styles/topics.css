@@ -45,3 +45,14 @@
         padding: 1.5rem 2rem;
     }
 }
+
+@media screen and (min-width: 1728px) {
+    .topics__title {
+        font-size: 2rem;
+        font-weight: 300;
+    }
+
+    .topics {
+        padding: 5rem 25rem;
+    }
+}
