@@ -7,8 +7,11 @@
 
 :root {
     --color-white: #FFFFFF;
+    --color-white-footer: #F9F9F9;
     --color-black: #000000;
+    --color-black-footer: #474646;
     --color-grey: #EBECEE;
+    --color-grey-footer: #858585;
     --color-orange: #EB9B00;
     --color-blue: #002F52;
     --color-blue-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
