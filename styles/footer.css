@@ -9,7 +9,7 @@
     text-decoration: none;
 }
 
-.footer-box {
+.footer-list {
     display: none;
 }
 
@@ -21,6 +21,10 @@
         justify-content: space-around;
         gap: 1.5rem;
         padding: 1.5rem 1rem;
+    }
+
+    .footer-list {
+        display: block;
     }
 
     .footer__title {
