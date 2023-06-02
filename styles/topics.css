@@ -46,7 +46,7 @@
     }
 }
 
-@media screen and (min-width: 1728px) {
+@media screen and (min-width: 1510px) {
     .topics__title {
         font-size: 2rem;
         font-weight: 300;

@@ -65,12 +65,12 @@
     }
 }
 
-@media screen and (min-width: 1728px) {
+@media screen and (min-width: 1510px) {
     .newsletter {
         padding: 2.5rem 20rem;
     }
 
     .newsletter__search::placeholder {
-        background-position: 5rem;
+        background-position: 2rem;
     }
 }

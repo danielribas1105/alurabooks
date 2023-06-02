@@ -121,7 +121,7 @@
 
 }
 
-@media screen and (min-width: 1728px) {
+@media screen and (min-width: 1510px) {
     .menu-options {
         flex-grow: 2;
         padding-left: 3rem;
