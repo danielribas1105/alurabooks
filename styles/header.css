@@ -110,4 +110,25 @@
     .icon-favorites {
         display: none;
     }
+
+}
+
+@media screen and (min-width: 1728px) {
+    .menu-options {
+        flex-grow: 2;
+        padding-left: 3rem;
+    }
+
+    .header-icon-link {
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        margin-right: 2rem;
+    }
+
+    .header-icon-label {
+        font-size: 1.25rem;
+        color: var(--color-black);
+        padding-left: 0.5rem;
+    }
 }
