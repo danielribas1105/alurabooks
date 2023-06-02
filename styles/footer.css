@@ -55,3 +55,10 @@
     }
 
 }
+
+@media screen and (min-width: 1510px) {
+    .footer-list {
+        border-left: 1px solid var(--color-grey-footer);
+        padding-left: 1rem;
+    }
+}
